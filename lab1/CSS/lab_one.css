@@ -1,0 +1,188 @@
+nav button {
+    border: none;
+    cursor: pointer;
+}
+
+nav button:hover {
+    background-color: darkgray;
+    transform: scale(1.1);
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+footer p {
+    margin: 8px 0;
+    font-size: 12px;
+    color: gray;
+}
+
+#page_body {
+    margin: 0;
+    background-color: black;
+}
+
+#page_body_v2 {
+    margin: 0;
+    background-color: blueviolet;
+}
+
+#page_header {
+    padding: 20px;
+    background-color: black;
+}
+
+#page_title {
+    margin: 0;
+    font-family: Franklin Gothic Medium;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+
+#page_nav {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    background-color: white;
+}
+
+#button_active {
+    width: 100px;
+    height: 50px;
+    background-color: lightgray;
+}
+
+.button_inactive {
+    width: 90px;
+    height: 45px;
+    background-color: gray;
+}
+
+#home_main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 50px;
+    background-color: blueviolet;
+}
+
+.main_figure {
+    margin: 0;
+    text-align: center;
+}
+
+.figure_image {
+    border-radius: 25px;
+    background-color: white;
+    width: 200px;
+    height: 200px;
+}
+
+.image_text {
+    font-family: Franklin Gothic Medium;
+    font-size: 25px;
+    color: white;
+}
+
+#home_section_message {
+    padding: 20px;
+    text-align: center;
+    background-color: blueviolet;
+}
+
+#greeting_message {
+    margin: 0;
+    font-family: fantasy;
+    font-size: 30px;
+    color: white;
+}
+
+#quote_message {
+    font-family: fantasy;
+    font-size: 30px;
+    color: white;
+}
+
+#about_main {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    text-align: center;
+    background-color: blueviolet;
+}
+
+#main_table {
+    border-collapse: collapse;
+    width: 50%;
+}
+
+.row_border {
+    border: 1px solid black;
+}
+
+.column_name {
+    font-family: Franklin Gothic Medium;
+    font-size: 35px;
+    border: 1px solid black;
+    background-color: lightgray;
+
+}
+
+.column_description {
+    font-family: Franklin Gothic Medium;
+    ;
+    font-size: 30px;
+    ;
+    border: 1px solid black;
+    background-color: gray;
+}
+
+#about_section_hobbies {
+    background-color: blueviolet;
+}
+
+#hobbies_header {
+    margin: 0;
+    padding: 20px;
+    padding-left: 100px;
+    font-family: fantasy;
+    font-size: 40px;
+    color: white;
+}
+
+.list_hobbies {
+    font-family: fantasy;
+    font-size: 30px;
+    color: white;
+}
+
+#contact_main {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    background-color: blueviolet;
+}
+
+#google_forms {
+    width: 100%;
+    max-width: 1000px;
+    height: 900px;
+    border: 0;
+}
+
+
+#footer {
+    padding: 20px;
+    text-align: center;
+    background-color: black;
+
+}
+
+#footer_logo {
+    width: 50px;
+    height: 50px;
+}
