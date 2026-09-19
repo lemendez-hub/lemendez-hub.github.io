@@ -1,0 +1,109 @@
+h1 {
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+}
+
+#game_body {
+    background-color: black;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#game_background {
+    position: relative;
+    background-color: royalblue;
+
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+
+    width: 75%;
+    height: 75vh;
+}
+
+#text_input {
+    width: 200px;
+    height: 35px;
+
+    border: 2px solid deepskyblue;
+    border-radius: 5px;
+
+    padding: 5px;
+
+    font-size: 18px;
+}
+
+#guess_button {
+    background-color: white;
+
+    color: black;
+
+    border: 2px solid deepskyblue;
+    border-radius: 5px;
+
+    padding: 12px 20px;
+
+    cursor: pointer;
+}
+
+#guess_button:hover {
+    background-color: gray;
+}
+
+#win_text {
+    color: greenyellow;
+}
+
+#win_count {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 10px;
+}
+
+#lose_count {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    margin: 10px;
+}
+
+#lose_text {
+    color: red;
+}
+
+#play_again_button {
+    background-color: white;
+
+    color: black;
+
+    padding: 12px 20px;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+
+#play_again_button:hover {
+    background-color: gray;
+}
+
+.game_text {
+    color: white;
+
+    font-size: 20px;
+    font-weight: bold;
+
+    letter-spacing: 2px;
+}
+
+.hide {
+    display: none;
+}

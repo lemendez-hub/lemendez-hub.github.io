@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab02</title>
+    <link rel="stylesheet" href="CSS/index_css.css">
+    <script src="Javascript/index_script.js" defer></script>
+</head>
+
+<body id="game_body">
+    <div id="game_background">
+        <p class="game_text" id="win_count"></p>
+        <p class="game_text" id="lose_count"></p>
+
+        <div id="game_content">
+            <h1>GUESS THE NUMBER</h1>
+
+            <p class="game_text">GUESS A NUMBER BETWEEN 1 AND 99</p>
+
+            <div>
+                <input type="text" id="text_input">
+                <button id="guess_button">GUESS</button>
+            </div>
+
+            <p class="game_text" id="guesses">GUESS(ES): </p>
+
+            <p class="game_text" id="attempts"></p>
+
+            <p class="game_text hide" id="guess_error">PLEASE ENTER A VALID GUESS</p>
+
+            <p class="game_text hide" id="guess_hint_higher">GUESS HIGHER</p>
+            <p class="game_text hide" id="guess_hint_lower">GUESS LOWER</p>
+
+            <p class="game_text hide" id="win_text"></p>
+
+            <p class="game_text hide" id="lose_text"></p>
+            <p class="game_text hide" id="target_number"></p>
+
+            <button class="hide" id="play_again_button">PLAY AGAIN</button>
+        </div>
+    </div>
+</body>
+
+</html>
