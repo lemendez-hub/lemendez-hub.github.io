@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+h1 {
+    padding: 25px;
+    font-family: Impacat;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 2.5px;
+    color: white;
+}
+
+#container {
+    margin: auto;
+    padding: 25px;
+    width: 100%;
+    max-width: 500px;
+    border: 5px solid white;
+    border-radius: 10px;
+    background-color: rgb(20, 20, 20);
+}
+
+.question {
+    margin-bottom: 25px;
+    padding: 10px;
+    font-family: Impact;
+    line-height: 1.5;
+    color: white;
+}
+
+p {
+    font-family: 'Times New Roman';
+}
+
+.feedback {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#submission {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#submit_button {
+    padding: 10px; /* 20px*/
+    font-family: Impact;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 50px;
+    border: none;
+}
+
+#submit_button:hover {
+    transform: scale(1.1);
+    background-color: gray;
+}
+
+#quiz_passed {
+    font-family: Impact;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+#quiz_taken {
+    font-family: Impact;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
