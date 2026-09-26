@@ -5,4 +5,4 @@ A repo for CST336.
 <br>
 <a href="lab2/index.html">Lab2</a>
 <br>
-<a href="lab03/index.html">Lab3</a>
+<a href="lab3/index.html">Lab3</a>
