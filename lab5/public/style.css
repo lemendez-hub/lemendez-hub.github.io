@@ -1,0 +1,68 @@
+#welcome {
+    text-align: center;
+    color: white;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+#name_change {
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+
+#centering {
+    display: flex;
+    justify-content: center;
+}
+
+#text_white {
+    color: white;
+}
+
+#navigation_bar {
+    display: flex;
+    justify-content: center;
+}
+
+#home {
+    font-weight: bold;
+    color: white;   
+}
+
+#navigation_tabs {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tab {
+    background-color: gray;
+    color: black;
+}
+
+footer {
+    margin-top: auto;
+    flex-shrink: 0;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+}
+
+footer img {
+    width: auto;
+    height: 100px;
+}
+
+footer p {
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-weight: bold;
+}

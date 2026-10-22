@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include('partials/head') %>
+
+        <title>Solar System Website</title>
+</head>
+
+<body>
+    <%- include('partials/navbar') %>
+
+        <main>
+            <h1 id="welcome">WELCOME TO: THE SOLAR SYSTEM</h1>
+
+            <% if (error_message) { %>
+                <p>
+                    <%= error_message %>
+                </p>
+                <% } %>
+
+                    <div>
+                        <% for (let i=0; i < random_pixabay_images.length; i++) { %>
+                            <img src="<%= random_pixabay_images[i] %>">
+                            <% } %>
+                    </div>
+        </main>
+
+        <%- include('partials/footer') %>
+</body>
+
+</html>

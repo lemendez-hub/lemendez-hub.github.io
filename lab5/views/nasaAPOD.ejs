@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include('partials/head') %>
+        <title>NASA Picture Of The Day</title>
+</head>
+
+<body>
+    <%- include('partials/navbar') %>
+
+        <main>
+
+            <h1 id="name_change">NASA Picture Of The Day</h1>
+
+            <% if (error_message) { %>
+                <p id="name_change">
+                    <%= error_message %>
+                </p>
+                <% } else if (nasa_info && nasa_info.media_type==="image" ) { %>
+                    <h2 id="name_change">
+                        <%= nasa_info.title %>
+                    </h2>
+
+                    <p id="name_change">Date: <%= nasa_info.date %>
+                    </p>
+
+                    <div id="centering">
+                        <img src="<%= nasa_info.url %>" style="width: 400px; height: 400px;">
+                    </div>
+
+                    <div>
+                        <br>
+                        <div id="text_white"><h3><%- nasa_info.explanation %></h3></div>
+
+                        <% if (nasa_info.copyright) { %>
+                            <h3 id="text_white">Copyright: <%- nasa_info.copyright %></h3>
+                            <% } %>
+                    </div>
+                    <% } %>
+        </main>
+
+        <%- include('partials/footer') %>
+</body>
+
+</html>

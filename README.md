@@ -6,3 +6,5 @@ A repo for CST336.
 <a href="lab2/index.html">Lab2</a>
 <br>
 <a href="lab3/index.html">Lab3</a>
+<br>
+<a href="lab5/index.mjs">Lab5</a>

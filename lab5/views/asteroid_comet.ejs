@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include('partials/head') %>
+
+        <title>
+            <%= name %>
+        </title>
+</head>
+
+<body>
+    <%- include('partials/navbar') %>
+
+        <main>
+            <h1 id="name_change">
+                <%= name %>
+            </h1>
+
+            <div>
+                <div id="centering">
+                    <img src="<%= object_info.image %>">
+                </div>
+
+                <div>
+                    <br>
+                    <h3 id="text_white">Description: <%= object_info.def %>
+                    </h3>
+                    <br>
+
+                    <h3><a href="<%= object_info.link %>">MORE INFORMATION</a></h3>
+                </div>
+            </div>
+        </main>
+
+        <%- include('partials/footer') %>
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include('partials/head') %>
+
+        <title>Planet</title>
+</head>
+
+<body>
+    <%- include('partials/navbar') %>
+
+        <main>
+            <h1 id="name_change">
+                <%= name %>
+            </h1>
+
+            <div>
+                <div id="centering">
+                    <img src="<%= image %>">
+                </div>
+
+                <div>
+                    <br>
+                    <h3 id="text_white">Description: <%= planet_info.description %>
+                    </h3>
+                    <br>
+
+                    <h3 id="text_white">Distance From Sun: <%= planet_info.distanceFromSun %>
+                    </h3>
+                    <br>
+
+                    <h3 id="text_white">Year Length: <%= planet_info.yearLength %>
+                    </h3>
+                    <br>
+
+                    <h3 id="text_white">Radius: <%= planet_info.radius %>
+                    </h3>
+                    <br>
+
+                    <h3 id="text_white">One Day: <%= planet_info.oneEarthDay %>
+                    </h3>
+                    <br>
+
+                    <h3 id="text_white">Moons: <%= planet_info.moons %>
+                    </h3>
+                    <br>
+
+                    <h3><a href="<%= planet_info.websiteLink %>">MORE INFORMATION</a></h3>
+                </div>
+            </div>
+        </main>
+
+        <%- include('partials/footer') %>
+</body>
+
+</html>
